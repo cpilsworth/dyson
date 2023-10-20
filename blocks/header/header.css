@@ -1,9 +1,14 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(--overlay-background-color);
+  color: var(--overlay-text-color);
   width: 100%;
   z-index: 2;
   position: fixed;
+}
+
+header .nav-wrapper a:any-link {
+  color: var(--overlay-link-color);
 }
 
 header nav {

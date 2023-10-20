@@ -1,5 +1,5 @@
 @font-face {
-  src: url(https://www.dyson.co.uk/etc.clientlibs/dyson/clientlibs/clientlib-head/resources/fonts/DysonFutura-Light.woff) format("woff");
+  src: url(/fonts/DysonFutura-Light.woff) format("woff");
   font-family: DysonFutura;
   font-weight: 300;
   font-style: normal;

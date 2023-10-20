@@ -1,9 +1,9 @@
-# Your Project's Title...
-Your project's description...
+# Dyson AEM Edge Delivery Services demo
+This is just a demonstration of how a site page can be build out using AEM Edge Delivery Services.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--dyson--cpilsworth.hlx.page/
+- Live: https://main--dyson--cpilsworth.hlx.live/
 
 ## Installation
 

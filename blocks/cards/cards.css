@@ -29,3 +29,25 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* rounded cards */
+.cards.rounded {
+  & .cards-card-image picture img {
+    border-radius: 0.5rem;
+  }
+}
+
+/** hoist the first anchorcards */
+.cards.hoist {
+
+  & ul li a:any-link {
+    text-decoration: none; 
+    background-color: inherit
+  }
+
+  & ul li p {
+    text-align: start;
+    color: var(--text-color);
+  }
+}
+

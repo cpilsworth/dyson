@@ -15,12 +15,18 @@
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: #fff;
-  --overlay-background-color: #eee;
-  --highlight-background-color: #ccc;
+  
+  --overlay-background-color: #000;
+  
+  --highlight-background-color: #fbfbfb;
+  --highlight-border-color: #ebebeb;
   --text-color: #000;
 
+  --navigation-background-color: #000;
+  --navigation-text-color: #fff;
+
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: 'DysonFutura', helvetica, ubuntu, roboto, noto, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -42,11 +48,30 @@
 
 }
 
+
+  /* fonts */
+  @font-face {
+    src: url(https://www.dyson.co.uk/etc.clientlibs/dyson/clientlibs/clientlib-head/resources/fonts/DysonFutura-Light.woff) format("woff");
+    font-family: DysonFutura;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 100.06%;
-  ascent-override: 95%;
-  src: local('Arial');
+    src: url(/fonts/DysonFutura-Book.woff) format("woff");
+    font-family: DysonFutura;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(/fonts/DysonFutura-Medium.woff) format("woff");
+    font-family: DysonFutura;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 

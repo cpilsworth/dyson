@@ -1,0 +1,54 @@
+.carousel-cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+
+.carousel-cards > ul > li {
+  border: 1px solid var(--highlight-background-color);
+  background-color: var(--background-color);
+}
+
+.carousel-cards .cards-card-body {
+  margin: 16px;
+}
+
+.carousel-cards .cards-card-image {
+  line-height: 0;
+}
+
+.carousel-cards .cards-card-body > *:first-child {
+  margin-top: 0;
+}
+
+.carousel-cards > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* rounded cards */
+.cards.carousel-cards.rounded {
+  & .cards-card-image picture img {
+    border-radius: 0.5rem;
+  }
+}
+
+/** hoist the first anchorcards */
+.carousel-cards.hoist {
+
+  & ul li a:any-link {
+    text-decoration: none; 
+    background-color: inherit
+  }
+
+  & ul li p {
+    text-align: start;
+    color: var(--text-color);
+  }
+}

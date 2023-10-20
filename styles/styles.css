@@ -51,32 +51,6 @@
   --desktop-min-width: 1025px;
 }
 
-  /* fonts */
-  @font-face {
-    src: url(https://www.dyson.co.uk/etc.clientlibs/dyson/clientlibs/clientlib-head/resources/fonts/DysonFutura-Light.woff) format("woff");
-    font-family: DysonFutura;
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    src: url(/fonts/DysonFutura-Book.woff) format("woff");
-    font-family: DysonFutura;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    src: url(/fonts/DysonFutura-Medium.woff) format("woff");
-    font-family: DysonFutura;
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-
 @media (min-width: 900px) {
   :root {
     --heading-font-size-xxl: 60px;

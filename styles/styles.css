@@ -17,13 +17,12 @@
   --background-color: #fff;
   
   --overlay-background-color: #000;
+  --overlay-text-color: #fff;
+  --overlay-link-color: #fff;
   
   --highlight-background-color: #fbfbfb;
   --highlight-border-color: #ebebeb;
   --text-color: #000;
-
-  --navigation-background-color: #000;
-  --navigation-text-color: #fff;
 
   /* fonts */
   --body-font-family: 'DysonFutura', helvetica, ubuntu, roboto, noto, sans-serif;

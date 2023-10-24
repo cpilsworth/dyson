@@ -1,0 +1,45 @@
+.teaser > div {
+  position: relative;
+  line-height: 0;;
+}
+
+/* image */
+.teaser > div .teaser-image {
+  height: fit-content;
+  background-color: pink;
+}
+
+/* title */
+.teaser div .teaser-content {
+  position: absolute;
+  display: grid;
+  justify-content: flex-start;
+  align-content: start;
+  z-index: 1;
+  top: 3rem;
+  left: 144px;
+  width: 41%;
+  height: 100%;
+  line-height: initial;
+}
+
+.teaser.light-text {
+  color: white;
+}
+
+.teaser.light-arrow-cta {
+  
+  & .teaser-content a.button::before {
+    content: url(/icons/arrow-circle.svg);
+    position: absolute ;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50px, -7px);
+  }
+
+  & .teaser-content a.button:any-link {
+    background-color: unset;
+    font-weight: 400;
+    padding-left: 50px;
+  }
+}

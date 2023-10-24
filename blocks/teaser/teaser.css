@@ -28,16 +28,16 @@
 }
 
 .teaser.light-arrow-cta {
-  
+
   & .teaser-content a.button::before {
-    content: url(/icons/arrow-circle.svg);
+    content: url(/icons/arrow-circle-light.svg);
     position: absolute ;
     width: 40px;
     height: 40px;
     transform: translate(-50px, -7px);
   }
 
-  & .teaser-content a.button:any-link {
+  & .teaser-content a.button:any-link {    
     background-color: unset;
     font-weight: 400;
     padding-left: 50px;

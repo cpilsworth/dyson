@@ -24,6 +24,7 @@
   --highlight-background-color: #fbfbfb;
   --highlight-border-color: #ebebeb;
   --text-color: #000;
+  --heading-color: #333;
 
   /* fonts */
   --body-font-family: 'DysonFutura', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -44,7 +45,7 @@
   --heading-font-size-xs: 12px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 114px;
 
   /* breakpoints */
   --tablet-min-width: 768px;
@@ -55,8 +56,8 @@
   :root {
     --heading-font-size-xxl: 44px;
     --heading-font-size-xl: 36px;
-    --heading-font-size-l: 36px;
-    --heading-font-size-m: 30px;
+    --heading-font-size-l: 30px;
+    --heading-font-size-m: 28px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
   }
@@ -82,6 +83,7 @@ header {
 
 h1, h2, h3,
 h4, h5, h6 {
+  color: var(--heading-color);
   font-family: var(--heading-font-family);
   font-weight: 300;
   line-height: 2.75rem;

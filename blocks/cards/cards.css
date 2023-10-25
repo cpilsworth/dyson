@@ -26,8 +26,15 @@
 
 .cards > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  /* aspect-ratio: 4 / 3; */
   object-fit: cover;
+}
+
+.cards .cards-card-body img {
+  width: 100%;
+  height: auto;
+  object-fit: unset;
+  aspect-ratio: unset;
 }
 
 /* rounded cards */
@@ -37,17 +44,34 @@
   }
 }
 
-/** hoist the first anchorcards */
-.cards.hoist {
 
-  & ul li a:any-link {
-    text-decoration: none; 
-    background-color: inherit
-  }
-
-  & ul li p {
-    text-align: start;
-    color: var(--text-color);
-  }
+.cards.three-column > ul {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
 }
 
+.cards.two-column > ul {
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.cards.full-border > ul li {
+  border: 1px solid var(--highlight-border-color);
+}
+
+.cards.dark-arrow-cta > ul li {
+  & a.button::before {
+    content: url(/icons/arrow-circle-dark.svg);
+    position: absolute ;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50px, -7px);
+  }
+
+  & a.button:any-link {
+    color: var(--text-color);   
+    background-color: unset;
+    font-weight: 400;
+    padding-left: 50px;
+  }
+}

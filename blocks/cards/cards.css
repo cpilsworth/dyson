@@ -31,10 +31,10 @@
 }
 
 .cards .cards-card-body img {
-  width: 100%;
-  height: auto;
   object-fit: unset;
   aspect-ratio: unset;
+  height: auto;
+  width: 375px;
 }
 
 /* rounded cards */
@@ -44,16 +44,24 @@
   }
 }
 
-
 .cards.three-column > ul {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
 }
 
+
 .cards.two-column > ul {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 32px;
+}  
+
+@media (min-width: 768px) {
+  .cards.two-column > ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }  
 }
+
 
 .cards.full-border > ul li {
   border: 1px solid var(--highlight-border-color);
@@ -63,7 +71,7 @@
 .columns.small-icons div div p picture img {
   width: 26px;
   height: auto;
-  display: block;
+  display: block;  
 }
 
 /** MEDIUM ICONS **/

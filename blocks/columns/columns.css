@@ -24,7 +24,6 @@
   }
 }   
 
-
 .columns.rtb div > div {
   background-color: var(--background-color);
   border: 1px solid var(--highlight-background-color);
@@ -43,7 +42,6 @@
 .columns.rtb div > div p:last-child {
   font-size: var(--body-font-size-xs);
 }
-
 
 /** TOP **/
 .columns.top > div {

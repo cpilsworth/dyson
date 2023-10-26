@@ -14,6 +14,9 @@
   /* colors */
   --link-color: #000;
   --link-hover-color: #000;
+  --button-color: #79b928;
+  --button-hover-color: #79b928;
+
   --background-color: #fff;
   
   --overlay-background-color: #000;
@@ -156,18 +159,18 @@ a.button:any-link, button {
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 20px 30px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: var(--button-color);
+  color: var(--heading-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {

@@ -27,11 +27,19 @@ npm run lint
 
 ## TODO
 
-- [ ] Asset selector
+- [x] Asset selector
 - [ ] Sidekick Library
 - [ ] Video component
 - [ ] Streaming video component
-- [ ] Header
 - [ ] Footer
-- [ ] Reasons to buy
-- [ ] Contact us
+  - [ ] Language selector
+- [x] Reasons to buy
+- [x] Contact us
+- [ ] Header
+  - [ ] Color
+  - [ ] Font-weight
+- [ ] Teaser buttons
+  - [ ] primary 
+  - [ ] secondary
+- [x] Remove default content in carousel section 
+      https://discord.com/channels/1131492224371277874/1144495462255185971/1166654707834572841

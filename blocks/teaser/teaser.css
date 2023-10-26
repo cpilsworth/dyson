@@ -28,6 +28,9 @@
     color: var(--overlay-text-color);
     margin-top: 12px;
   }
+  & a.button:any-link {
+    color: var(--overlay-text-color);
+  }
 }
 
 .teaser.light-arrow-cta {
